@@ -4,7 +4,7 @@ a 2D platformer
 # Time of Creation:
 November 2020
 
-# Important
+# Important:
 Written in Python 3.7
 
 # libraries used:
