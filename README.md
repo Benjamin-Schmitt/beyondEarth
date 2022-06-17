@@ -9,8 +9,8 @@ Idea:
 
 
 KeyMap:
-WASD    :  moving around
-F       :  entering doors
+WASD    :  moving around <br>
+F       :  entering doors <br>
 
 Known bugs:
 - jumping inside of house gets the hero stuck in the ceiling
