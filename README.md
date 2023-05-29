@@ -8,7 +8,7 @@ November 2020
 Written in Python 3.7
 
 # libraries used:
-- pygame
+- pygame-ce 2.2.1 (SDL 2.26.4, Python 3.10.0)
 - sys
 - os
 - time

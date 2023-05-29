@@ -1,6 +1,6 @@
 # imports
 from typing import List
-import pygame, sys, os, time
+import pygame, sys, os
 
 # setup
 pygame.init()  # Initialize pygame
@@ -69,7 +69,6 @@ def load_map(path):
     return lol
 game_map = load_map('map')
 
-
 # tileset Nr. 2
 def load_second_map(path):
     f = open(path + '.txt', 'r')
@@ -85,8 +84,6 @@ game_map_second = load_map('map_2')
 TILE_SIZE_width = b_2.get_width()
 TILE_SIZE_height = b_2.get_height()
 
-
-
 # Mainloop
 while True:   
     
@@ -100,7 +97,6 @@ while True:
     ## size, width, height
     ## w,h
     
-
     player_rect.x = player_location[0]
     player_rect.y = player_location[1]
 
@@ -119,8 +115,7 @@ while True:
     if cloud_location[0] == 1400:
         cloud_location[0] = -150
 
-    ######## T I L E S #################
-
+    ######## T I L E S ########
     # M A P  Nr. 1
     y = 0
     if door_c == 0:
@@ -253,7 +248,6 @@ while True:
 
     #3.1 LOAD player into the game
     screen.blit(player_image, player_location)
-
 
     # "Jumping" Mechanic
     mup = 1
